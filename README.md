@@ -7,8 +7,8 @@ https://react-native.rocketseat.dev/
 
 
 #### Tarefas prévias
-* Preparação da logo ([Canva.com](bit.ly/meusresultadosufopa))
-* Preparação do protótipo ([Figma](bit.ly/meusresultadosprototipo))
+* Preparação da logo ([Canva.com](http://bit.ly/meusresultadosufopa))
+* Preparação do protótipo ([Figma](http://bit.ly/meusresultadosprototipo))
 
 1. Criar projeto no GitHub
   - Novo repositório
