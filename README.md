@@ -42,14 +42,14 @@ npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config
 5. Estilização Simples
   * Recomedável estudar CSS, responsividade e Flexbox
 
-6. Estilização com StyleSheet
+6. Estilização com [StyleSheet](https://reactnative.dev/docs/stylesheet)
 
 7. Organização do projeto
-  -src
-    -screens
-      -Home
-        index.tsx
-        styles.ts
+  * src (pasta com o código fonte)
+  * screens (pasta contendo as telas do app)
+      * Home (página principal do app)
+        - index.tsx (arquivo contendo o código da página)
+        - styles.ts (arquivo de estilização)
 
 ## OBS:
 * Componentes começam com letra maíuscula
