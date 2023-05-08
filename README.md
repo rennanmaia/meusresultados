@@ -54,3 +54,52 @@ npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config
 ## OBS:
 * Componentes começam com letra maíuscula
 * Para criar componentes a extensão do arquivo tem que ser .tsx
+
+## 08/05/2023
+
+- Adicionar logo
+https://reactnative.dev/docs/images
+
+- Path Mapping
+  * biblioteca babbel-plugin-module-resolver
+  * https://github.com/tleunen/babel-plugin-module-resolver
+
+  * Parar aplicação
+  * Instalar o plugin
+    * 
+
+Adicionar no arquivo babel.config.js
+    plugins: [
+      ["module-resolver", {
+        root: ['./src'],
+        alias: {
+          "@assets": "./src/assets",
+          "@components": "./src/components",
+          "@routes": "./src/routes",
+          "@screens": "./src/screens",
+        },
+      }],
+    ],
+
+Adicionar tipagem nos mapeamentos para aparecer nas sugestões
+No arquivo tsconfig.json
+
+
+Estilização com styled-components
+https://styled-components.com/
+
+npm install styled-components@latest
+
+npm install --save-dev @types/styled-components @types/styled-components-react-native
+
+plugin VSCode 
+vscode-styled-component
+
+Extensão cores VSCODE
+color highligth
+
+Erro no TSconfig
+npm install --save @types/hoist-non-react-statics
+https://www.npmjs.com/package/@types/hoist-non-react-statics
+
+
