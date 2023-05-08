@@ -1,5 +1,23 @@
 import { StyleSheet } from 'react-native';
 
+import styled from 'styled-components/native';
+
+export const Container = styled.View`
+  flex: 1;
+  background-color: #d9d9d9;
+  padding: 12px;
+`;
+
+export const TitleBar = styled.Text`
+  width: 100%;
+  textAlign: center;
+  fontWeight: bold;
+`;
+
+export const MailField = styled.View`
+  
+`;
+
 export const styles = StyleSheet.create({
     container: {
       flex: 1,

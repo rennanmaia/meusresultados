@@ -1,10 +1,10 @@
 import { Text, View,  TextInput, TouchableOpacity } from 'react-native';
 
-import { styles } from './styles';
+import { styles, Container } from './styles';
 
 export function Home() {
   return (
-    <View style={styles.container}>
+    <Container>
       <Text style={styles.titulo}>
         Meus resultados
       </Text>
@@ -39,6 +39,6 @@ export function Home() {
         </Text>
     </TouchableOpacity>
 
-    </View>
+    </Container>
   );
 }
