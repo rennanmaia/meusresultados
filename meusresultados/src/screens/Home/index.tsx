@@ -1,6 +1,6 @@
 import { Text, View,  TextInput, TouchableOpacity } from 'react-native';
 
-import { styles } from './styles';
+import { styles, Container } from './styles';
 
 export function Home() {
   return (
